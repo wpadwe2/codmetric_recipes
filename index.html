@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Webpage</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <main class="container">
+        <!-- Background Video -->
+        <video autoplay muted loop id="background-video">
+            <source src="video_preview_h264.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <header>
+            <h1>Delicious Recipes</h1>
+        </header>
+
+        <!-- Chicken Recipes -->
+        <section class="recipe">
+            <h2>Grilled Lemon Chicken</h2>
+            <img src="backiee-180352.jpg" style="width:300px; height: auto;" alt="Responsive Image">
+            <h3>Ingredients:</h3>
+            <ul class="ingredients">
+                <li><i class="fas fa-drumstick-bite"></i> Full Chicken</li>
+                <li><i class="fas fa-lemon"></i> 1 lemon (juiced)</li>
+                <li><i class="fas fa-oil-can"></i> 2 tbsp olive oil</li>
+                <li><i class="fas fa-pepper-hot"></i> 1 tsp garlic powder</li>
+                <li><i class="fas fa-salt"></i> Salt and pepper to taste</li>
+            </ul>
+            <h3>Steps:</h3>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar-lemon"></div>
+            </div>
+            <ol class="steps" data-progress="progress-bar-lemon">
+                <li><i class="fas fa-blender"></i> Mix lemon juice, olive oil, garlic powder, salt, and pepper.</li>
+                <li><i class="fas fa-clock"></i> Marinate chicken for 30 minutes.</li>
+                <li><i class="fas fa-fire"></i> Grill for 6-7 minutes per side until fully cooked.</li>
+                <li><i class="fas fa-utensils"></i> Serve hot with a side salad.</li>
+            </ol>
+        </section>
+        
+        <!-- Honey Garlic Chicken -->
+        <section class="recipe">
+            <h2>Honey Garlic Chicken</h2>
+            <img src="Slow-Cooker-Honey-Garlic-Chicken-2.webp" style="width:300px; height: auto;" alt="Honey Garlic Chicken">
+            <h3>Ingredients:</h3>
+            <ul class="ingredients">
+                <li><i class="fas fa-drumstick-bite"></i> 4 chicken thighs</li>
+                <li><i class="fas fa-honey-pot"></i> 3 tbsp honey</li>
+                <li><i class="fas fa-garlic"></i> 2 cloves garlic (minced)</li>
+                <li><i class="fas fa-bottle-water"></i> 2 tbsp soy sauce</li>
+                <li><i class="fas fa-oil-can"></i> 1 tbsp olive oil</li>
+            </ul>
+            <h3>Steps:</h3>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar-honey"></div>
+            </div>
+            <ol class="steps" data-progress="progress-bar-honey">
+                <li><i class="fas fa-fire"></i> Heat olive oil in a pan and cook chicken.</li>
+                <li><i class="fas fa-blender"></i> Mix honey, garlic, and soy sauce.</li>
+                <li><i class="fas fa-utensils"></i> Pour sauce over chicken and simmer for 5 minutes.</li>
+                <li><i class="fas fa-bowl-rice"></i> Serve hot with rice.</li>
+            </ol>
+        </section>
+        
+        <!-- Chocolate Cake -->
+        <section class="recipe">
+            <h2>Chocolate Cake</h2>
+            <img src="Mini-6-Inch-Chocolate-Cake-Recipe-wide-with-wm-13-of-14.jpg" style="width:300px; height: auto;" alt="Chocolate Cake">
+            <h3>Ingredients:</h3>
+            <ul class="ingredients">
+                <li><i class="fas fa-bread-slice"></i> 1 cup flour</li>
+                <li><i class="fas fa-cube"></i> 1/2 cup cocoa powder</li>
+                <li><i class="fas fa-sugar-cube"></i> 1 cup sugar</li>
+                <li><i class="fas fa-egg"></i> 2 eggs</li>
+                <li><i class="fas fa-glass-whiskey"></i> 1/2 cup milk</li>
+                <li><i class="fas fa-butter"></i> 1/2 cup melted butter</li>
+            </ul>
+            <h3>Steps:</h3>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar-cake"></div>
+            </div>
+            <ol class="steps" data-progress="progress-bar-cake">
+                <li><i class="fas fa-temperature-high"></i> Preheat oven to 350°F (175°C).</li>
+                <li><i class="fas fa-blender"></i> Mix all ingredients together.</li>
+                <li><i class="fas fa-bread-slice"></i> Pour into a greased baking pan.</li>
+                <li><i class="fas fa-hourglass-half"></i> Bake for 30 minutes.</li>
+                <li><i class="fas fa-utensils"></i> Let cool and serve.</li>
+            </ol>
+        </section>
+        
+        <!-- Fried Rice -->
+        <section class="recipe">
+            <h2>Fried Rice</h2>
+            <img src="Egg-fried-rice-2__ScaleWidthWzEyMDBd_ExtRewriteWyJqcGciLCJhdmlmIl0_QualityWzYwXQ.avif" style="width:300px; height: auto;" alt="Fried Rice">
+            <h3>Ingredients:</h3>
+            <ul class="ingredients">
+                <li><i class="fas fa-bowl-rice"></i> 2 cups cooked rice</li>
+                <li><i class="fas fa-carrot"></i> 1/2 cup mixed vegetables</li>
+                <li><i class="fas fa-egg"></i> 2 eggs</li>
+                <li><i class="fas fa-bottle-water"></i> 2 tbsp soy sauce</li>
+                <li><i class="fas fa-oil-can"></i> 1 tbsp oil</li>
+            </ul>
+            <h3>Steps:</h3>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar-rice"></div>
+            </div>
+            <ol class="steps" data-progress="progress-bar-rice">
+                <li><i class="fas fa-fire"></i> Heat oil in a pan.</li>
+                <li><i class="fas fa-egg"></i> Scramble eggs and remove from pan.</li>
+                <li><i class="fas fa-carrot"></i> Stir-fry vegetables, then add rice and soy sauce.</li>
+                <li><i class="fas fa-egg"></i> Mix eggs back in and cook for 2 more minutes.</li>
+                <li><i class="fas fa-utensils"></i> Serve hot.</li>
+            </ol>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Social Media Section -->
+            <nav class="footer-section">
+                <h4>Follow Us</h4>
+                <ul class="social-media">
+                    <li><a href="mailto:wpadwe2@gmail.com.com"><i class="fas fa-envelope"></i> Email</a></li>
+                    <li><a href="https://www.facebook.com/padwe.white.2025/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://wa.me/+213540957730" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                    <li><a href="https://www.instagram.com/wpadwe2" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/search/user?q=padwe%20white" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                    <li><a href="http://www.youtube.com/@childofgod7865" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
+                    <li><a href="https://x.com/wpadwe2" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </nav>
+
+            <!-- Copyright Section -->
+            <div class="footer-section">
+                <p>&copy; 2025 PADWE RECIPES. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
